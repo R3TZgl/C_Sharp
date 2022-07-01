@@ -16,5 +16,31 @@ namespace Hello_World
 
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnForm1_Click(object sender, EventArgs e)
+        {
+            Form2 dois = new Form2();
+            dois.ShowDialog();
+        }
+
+        private void btnForm3_Click(object sender, EventArgs e)
+        {
+            Form3 tres = new Form3();
+            tres.ShowDialog();
+        }
     }
 }
