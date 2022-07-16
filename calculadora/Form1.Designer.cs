@@ -350,6 +350,7 @@
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(234, 96);
             this.textBox1.TabIndex = 24;
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // txtUm
@@ -360,6 +361,7 @@
             this.txtUm.Name = "txtUm";
             this.txtUm.Size = new System.Drawing.Size(114, 52);
             this.txtUm.TabIndex = 25;
+            this.txtUm.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtUm.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtUm_MouseClick);
             this.txtUm.TextChanged += new System.EventHandler(this.txtUm_TextChanged);
             this.txtUm.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtUm_KeyPress);
@@ -372,6 +374,7 @@
             this.txtDois.Name = "txtDois";
             this.txtDois.Size = new System.Drawing.Size(114, 52);
             this.txtDois.TabIndex = 26;
+            this.txtDois.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtDois.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtDois_MouseClick);
             this.txtDois.TextChanged += new System.EventHandler(this.txtDois_TextChanged);
             this.txtDois.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDois_KeyPress);
@@ -398,7 +401,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Ivory;
+            this.BackColor = System.Drawing.Color.Honeydew;
             this.ClientSize = new System.Drawing.Size(440, 627);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.labelDate);
