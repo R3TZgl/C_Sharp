@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "etCK0uRBhI3wtGChGKD705+/muSkYcuwh9o5SMhZzZVT8u1dEXGReimAMqTpOEoYhQ652KHGGESmYyb6h7Ab1Q==",
+  "dgSpecHash": "Vkr+yaJwS0wTlYFwg/ZXvehgSKr9XWcjhgnhAftRqFC6+Xy4GeiTDrP3ZC0N1QilolkvDt24fRWU2axnYo44dA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\guest01\\Documents\\C#\\calculadora\\calculadora.csproj",
+  "projectFilePath": "C:\\Users\\guest01\\Documents\\C_Sharp\\calculadora\\calculadora.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

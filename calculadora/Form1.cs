@@ -179,145 +179,81 @@ namespace calculadora
             caixa2 = true;
             caixa1 = false;
         }
-        private void btn1_Click(object sender, EventArgs e)
+        void digitar(string caractere)
         {
             if (caixa1)
             {
-                txtUm.Text = txtUm.Text + "1";
-            }else if (caixa2)
-            {
-                txtDois.Text = txtDois.Text + "1";
+                txtUm.Text = txtUm.Text + caractere;
             }
+            else if (caixa2)
+            {
+                txtDois.Text = txtDois.Text + caractere;
+            }
+        }
+        private void btn1_Click(object sender, EventArgs e)
+        {
+            digitar("0");
         }
 
         private void btn2_Click(object sender, EventArgs e)
         {
-            if (caixa1)
-            {
-                txtUm.Text = txtUm.Text + "2";
-            }
-            else if (caixa2)
-            {
-                txtDois.Text = txtDois.Text + "2";
-            }
+            digitar("2");
         }
 
         private void btn3_Click(object sender, EventArgs e)
         {
-            if (caixa1)
-            {
-                txtUm.Text = txtUm.Text + "3";
-            }
-            else if (caixa2)
-            {
-                txtDois.Text = txtDois.Text + "3";
-            }
+            digitar("3");
         }
 
         private void btn4_Click(object sender, EventArgs e)
         {
-            if (caixa1)
-            {
-                txtUm.Text = txtUm.Text + "4";
-            }
-            else if (caixa2)
-            {
-                txtDois.Text = txtDois.Text + "4";
-            }
+            digitar("4");
         }
 
         private void btn5_Click(object sender, EventArgs e)
         {
-            if (caixa1)
-            {
-                txtUm.Text = txtUm.Text + "5";
-            }
-            else if (caixa2)
-            {
-                txtDois.Text = txtDois.Text + "5";
-            }
+            digitar("5");
         }
 
         private void btn6_Click(object sender, EventArgs e)
         {
-            if (caixa1)
-            {
-                txtUm.Text = txtUm.Text + "6";
-            }
-            else if (caixa2)
-            {
-                txtDois.Text = txtDois.Text + "6";
-            }
+            digitar("6");
         }
 
         private void btn7_Click(object sender, EventArgs e)
         {
-            if (caixa1)
-            {
-                txtUm.Text = txtUm.Text + "7";
-            }
-            else if (caixa2)
-            {
-                txtDois.Text = txtDois.Text + "7";
-            }
+            digitar("7");
         }
 
         private void btn8_Click(object sender, EventArgs e)
         {
-            if (caixa1)
-            {
-                txtUm.Text = txtUm.Text + "8";
-            }
-            else if (caixa2)
-            {
-                txtDois.Text = txtDois.Text + "8";
-            }
+            digitar("8");
         }
 
         private void btn9_Click(object sender, EventArgs e)
         {
-            if (caixa1)
-            {
-                txtUm.Text = txtUm.Text + "9";
-            }
-            else if (caixa2)
-            {
-                txtDois.Text = txtDois.Text + "9";
-            }
+            digitar("9");
         }
 
         private void btn0_Click(object sender, EventArgs e)
         {
-            if (caixa1)
-            {
-                txtUm.Text = txtUm.Text + "0";
-            }
-            else if (caixa2)
-            {
-                txtDois.Text = txtDois.Text + "0";
-            }
+            digitar("0");
         }
 
         private void btnVirgula_Click(object sender, EventArgs e)
         {
-            if (caixa1)
-            {
-                txtUm.Text = txtUm.Text + ",";
-            }
-            else if (caixa2)
-            {
-                txtDois.Text = txtDois.Text + ",";
-            }
+            digitar(",");
         }
 
         private void btnElevado_Click(object sender, EventArgs e)
         {
             //Nada ainda
         }
-
         private void btnPorcentagem_Click(object sender, EventArgs e)
         {
             resultado = float.Parse(txtDois.Text) * float.Parse(txtUm.Text) / 100;
         }
+
     }
+
 }

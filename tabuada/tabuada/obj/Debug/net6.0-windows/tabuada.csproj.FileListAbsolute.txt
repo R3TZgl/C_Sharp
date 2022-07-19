@@ -1,0 +1,17 @@
+C:\Users\guest01\Documents\C_Sharp\tabuada\tabuada\bin\Debug\net6.0-windows\tabuada.exe
+C:\Users\guest01\Documents\C_Sharp\tabuada\tabuada\bin\Debug\net6.0-windows\tabuada.deps.json
+C:\Users\guest01\Documents\C_Sharp\tabuada\tabuada\bin\Debug\net6.0-windows\tabuada.runtimeconfig.json
+C:\Users\guest01\Documents\C_Sharp\tabuada\tabuada\bin\Debug\net6.0-windows\tabuada.dll
+C:\Users\guest01\Documents\C_Sharp\tabuada\tabuada\bin\Debug\net6.0-windows\tabuada.pdb
+C:\Users\guest01\Documents\C_Sharp\tabuada\tabuada\obj\Debug\net6.0-windows\tabuada.csproj.AssemblyReference.cache
+C:\Users\guest01\Documents\C_Sharp\tabuada\tabuada\obj\Debug\net6.0-windows\tabuada.Form1.resources
+C:\Users\guest01\Documents\C_Sharp\tabuada\tabuada\obj\Debug\net6.0-windows\tabuada.csproj.GenerateResource.cache
+C:\Users\guest01\Documents\C_Sharp\tabuada\tabuada\obj\Debug\net6.0-windows\tabuada.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guest01\Documents\C_Sharp\tabuada\tabuada\obj\Debug\net6.0-windows\tabuada.AssemblyInfoInputs.cache
+C:\Users\guest01\Documents\C_Sharp\tabuada\tabuada\obj\Debug\net6.0-windows\tabuada.AssemblyInfo.cs
+C:\Users\guest01\Documents\C_Sharp\tabuada\tabuada\obj\Debug\net6.0-windows\tabuada.csproj.CoreCompileInputs.cache
+C:\Users\guest01\Documents\C_Sharp\tabuada\tabuada\obj\Debug\net6.0-windows\tabuada.dll
+C:\Users\guest01\Documents\C_Sharp\tabuada\tabuada\obj\Debug\net6.0-windows\refint\tabuada.dll
+C:\Users\guest01\Documents\C_Sharp\tabuada\tabuada\obj\Debug\net6.0-windows\tabuada.pdb
+C:\Users\guest01\Documents\C_Sharp\tabuada\tabuada\obj\Debug\net6.0-windows\tabuada.genruntimeconfig.cache
+C:\Users\guest01\Documents\C_Sharp\tabuada\tabuada\obj\Debug\net6.0-windows\ref\tabuada.dll
