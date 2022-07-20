@@ -1,0 +1,17 @@
+C:\Users\guest01\Documents\C_Sharp\Exercicios\Asterisco\bin\Debug\net6.0-windows\Asterisco.exe
+C:\Users\guest01\Documents\C_Sharp\Exercicios\Asterisco\bin\Debug\net6.0-windows\Asterisco.deps.json
+C:\Users\guest01\Documents\C_Sharp\Exercicios\Asterisco\bin\Debug\net6.0-windows\Asterisco.runtimeconfig.json
+C:\Users\guest01\Documents\C_Sharp\Exercicios\Asterisco\bin\Debug\net6.0-windows\Asterisco.dll
+C:\Users\guest01\Documents\C_Sharp\Exercicios\Asterisco\bin\Debug\net6.0-windows\Asterisco.pdb
+C:\Users\guest01\Documents\C_Sharp\Exercicios\Asterisco\obj\Debug\net6.0-windows\Asterisco.csproj.AssemblyReference.cache
+C:\Users\guest01\Documents\C_Sharp\Exercicios\Asterisco\obj\Debug\net6.0-windows\Asterisco.Form1.resources
+C:\Users\guest01\Documents\C_Sharp\Exercicios\Asterisco\obj\Debug\net6.0-windows\Asterisco.csproj.GenerateResource.cache
+C:\Users\guest01\Documents\C_Sharp\Exercicios\Asterisco\obj\Debug\net6.0-windows\Asterisco.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guest01\Documents\C_Sharp\Exercicios\Asterisco\obj\Debug\net6.0-windows\Asterisco.AssemblyInfoInputs.cache
+C:\Users\guest01\Documents\C_Sharp\Exercicios\Asterisco\obj\Debug\net6.0-windows\Asterisco.AssemblyInfo.cs
+C:\Users\guest01\Documents\C_Sharp\Exercicios\Asterisco\obj\Debug\net6.0-windows\Asterisco.csproj.CoreCompileInputs.cache
+C:\Users\guest01\Documents\C_Sharp\Exercicios\Asterisco\obj\Debug\net6.0-windows\Asterisco.dll
+C:\Users\guest01\Documents\C_Sharp\Exercicios\Asterisco\obj\Debug\net6.0-windows\refint\Asterisco.dll
+C:\Users\guest01\Documents\C_Sharp\Exercicios\Asterisco\obj\Debug\net6.0-windows\Asterisco.pdb
+C:\Users\guest01\Documents\C_Sharp\Exercicios\Asterisco\obj\Debug\net6.0-windows\Asterisco.genruntimeconfig.cache
+C:\Users\guest01\Documents\C_Sharp\Exercicios\Asterisco\obj\Debug\net6.0-windows\ref\Asterisco.dll
