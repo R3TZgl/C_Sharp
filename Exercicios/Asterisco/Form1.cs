@@ -33,20 +33,19 @@ namespace Asterisco
         {
             listBox1.Items.Clear();
             string txt = "***********";
+            string space = "";
             for (int i = 0; i < 10; i++)
             {
                 txt = txt.Remove(txt.Length - 1);
-                txt = txt.Remove(txt.Length - 1);
-                txt = txt.Insert(0, "  ");
-                listBox1.Items.Add(txt);
+                space = space + " ";
+                listBox1.Items.Add(space + txt);
             }
 
             for (int i = 0; i < 10; i++)
             {
+                space = space.Remove(space.Length - 1);
                 txt = txt + "*";
-                txt = txt + "*";
-                txt = txt.Remove(0);
-                listBox1.Items.Add(txt);
+                listBox1.Items.Add(space + txt);
             }
 
             
