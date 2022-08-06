@@ -1,0 +1,17 @@
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Classes\Classes\obj\Debug\net6.0-windows\Classes.csproj.AssemblyReference.cache
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Classes\Classes\obj\Debug\net6.0-windows\Classes.Form1.resources
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Classes\Classes\obj\Debug\net6.0-windows\Classes.csproj.GenerateResource.cache
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Classes\Classes\obj\Debug\net6.0-windows\Classes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Classes\Classes\obj\Debug\net6.0-windows\Classes.AssemblyInfoInputs.cache
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Classes\Classes\obj\Debug\net6.0-windows\Classes.AssemblyInfo.cs
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Classes\Classes\obj\Debug\net6.0-windows\Classes.csproj.CoreCompileInputs.cache
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Classes\Classes\bin\Debug\net6.0-windows\Classes.exe
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Classes\Classes\bin\Debug\net6.0-windows\Classes.deps.json
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Classes\Classes\bin\Debug\net6.0-windows\Classes.runtimeconfig.json
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Classes\Classes\bin\Debug\net6.0-windows\Classes.dll
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Classes\Classes\bin\Debug\net6.0-windows\Classes.pdb
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Classes\Classes\obj\Debug\net6.0-windows\Classes.dll
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Classes\Classes\obj\Debug\net6.0-windows\refint\Classes.dll
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Classes\Classes\obj\Debug\net6.0-windows\Classes.pdb
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Classes\Classes\obj\Debug\net6.0-windows\Classes.genruntimeconfig.cache
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Classes\Classes\obj\Debug\net6.0-windows\ref\Classes.dll
