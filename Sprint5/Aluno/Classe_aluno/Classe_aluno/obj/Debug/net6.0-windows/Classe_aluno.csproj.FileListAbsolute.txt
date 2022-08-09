@@ -1,0 +1,17 @@
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Aluno\Classe_aluno\Classe_aluno\obj\Debug\net6.0-windows\Classe_aluno.csproj.AssemblyReference.cache
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Aluno\Classe_aluno\Classe_aluno\obj\Debug\net6.0-windows\Classe_aluno.Form1.resources
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Aluno\Classe_aluno\Classe_aluno\obj\Debug\net6.0-windows\Classe_aluno.csproj.GenerateResource.cache
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Aluno\Classe_aluno\Classe_aluno\obj\Debug\net6.0-windows\Classe_aluno.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Aluno\Classe_aluno\Classe_aluno\obj\Debug\net6.0-windows\Classe_aluno.AssemblyInfoInputs.cache
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Aluno\Classe_aluno\Classe_aluno\obj\Debug\net6.0-windows\Classe_aluno.AssemblyInfo.cs
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Aluno\Classe_aluno\Classe_aluno\obj\Debug\net6.0-windows\Classe_aluno.csproj.CoreCompileInputs.cache
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Aluno\Classe_aluno\Classe_aluno\bin\Debug\net6.0-windows\Classe_aluno.exe
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Aluno\Classe_aluno\Classe_aluno\bin\Debug\net6.0-windows\Classe_aluno.deps.json
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Aluno\Classe_aluno\Classe_aluno\bin\Debug\net6.0-windows\Classe_aluno.runtimeconfig.json
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Aluno\Classe_aluno\Classe_aluno\bin\Debug\net6.0-windows\Classe_aluno.dll
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Aluno\Classe_aluno\Classe_aluno\bin\Debug\net6.0-windows\Classe_aluno.pdb
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Aluno\Classe_aluno\Classe_aluno\obj\Debug\net6.0-windows\Classe_aluno.dll
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Aluno\Classe_aluno\Classe_aluno\obj\Debug\net6.0-windows\refint\Classe_aluno.dll
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Aluno\Classe_aluno\Classe_aluno\obj\Debug\net6.0-windows\Classe_aluno.pdb
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Aluno\Classe_aluno\Classe_aluno\obj\Debug\net6.0-windows\Classe_aluno.genruntimeconfig.cache
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Aluno\Classe_aluno\Classe_aluno\obj\Debug\net6.0-windows\ref\Classe_aluno.dll
