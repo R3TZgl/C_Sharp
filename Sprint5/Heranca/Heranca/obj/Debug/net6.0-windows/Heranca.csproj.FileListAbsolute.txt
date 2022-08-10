@@ -1,0 +1,17 @@
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Heranca\Heranca\bin\Debug\net6.0-windows\Heranca.exe
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Heranca\Heranca\bin\Debug\net6.0-windows\Heranca.deps.json
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Heranca\Heranca\bin\Debug\net6.0-windows\Heranca.runtimeconfig.json
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Heranca\Heranca\bin\Debug\net6.0-windows\Heranca.dll
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Heranca\Heranca\bin\Debug\net6.0-windows\Heranca.pdb
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Heranca\Heranca\obj\Debug\net6.0-windows\Heranca.csproj.AssemblyReference.cache
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Heranca\Heranca\obj\Debug\net6.0-windows\Heranca.Form1.resources
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Heranca\Heranca\obj\Debug\net6.0-windows\Heranca.csproj.GenerateResource.cache
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Heranca\Heranca\obj\Debug\net6.0-windows\Heranca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Heranca\Heranca\obj\Debug\net6.0-windows\Heranca.AssemblyInfoInputs.cache
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Heranca\Heranca\obj\Debug\net6.0-windows\Heranca.AssemblyInfo.cs
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Heranca\Heranca\obj\Debug\net6.0-windows\Heranca.csproj.CoreCompileInputs.cache
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Heranca\Heranca\obj\Debug\net6.0-windows\Heranca.dll
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Heranca\Heranca\obj\Debug\net6.0-windows\refint\Heranca.dll
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Heranca\Heranca\obj\Debug\net6.0-windows\Heranca.pdb
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Heranca\Heranca\obj\Debug\net6.0-windows\Heranca.genruntimeconfig.cache
+C:\Users\HyperV\Documents\C_Sharp\Sprint5\Heranca\Heranca\obj\Debug\net6.0-windows\ref\Heranca.dll
