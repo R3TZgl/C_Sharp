@@ -1,0 +1,43 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: ghostwhite;
+}
+
+h1 {
+    transition: 0.8s;
+}
+
+h1:hover {
+    color: slateblue;
+}
+
+.cor_meio {
+    color: #C78EFF;
+}
+
+a {
+    color: #C78EFF;
+}
+
+    a:hover {
+        color: greenyellow;
+    }
+
+#foguete {
+    width: 5em;
+}
