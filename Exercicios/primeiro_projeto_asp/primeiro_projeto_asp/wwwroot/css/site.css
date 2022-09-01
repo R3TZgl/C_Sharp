@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 html {
   font-size: 14px;
 }
@@ -59,24 +64,32 @@ a:not(:hover) {
     border: 0.2em solid;
     padding: 0.3em;
     padding-right: 0.3em;
-    padding-left: 0.1em;
-    animation: cor 5s;
+    padding-left: 0.1em;   
 }
 #foto:hover {
     border-color: rgb(151, 252, 0);
-    transition: 0.5s;
-}   
-#foto:not(:hover) { 
     transition: 0.7s;
+}   
+#foto:not(:hover) {     
+    animation: cor 3s;
 }
 
 .img-text {
     display: flex;
     margin: 2em;
+    display: relative;
 }
 
 p {
     margin: 0.7em;
+    font-size: 1.5em;
+}
+
+.textos {
+    border: 0.2em solid;
+    border-radius: 3em;
+    padding: 0.1em;
+    margin-right: 0;
 }
 
 @keyframes movimento {
@@ -88,7 +101,7 @@ p {
 }
 
 @keyframes cor {
-    0% {border-color: black}
+    0% {border-color: rgb(151, 252, 0)}
     50% {border-color: #C78EFF}
     100% {border-color: black}
 }
