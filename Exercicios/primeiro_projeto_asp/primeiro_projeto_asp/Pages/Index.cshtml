@@ -4,11 +4,50 @@
     ViewData["Title"] = "Home page";
 }
 
+<img />
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
+    <h1 class="display-4">Welcome<span><img src="../imgs/foguete.png" id="foguete"/></span></h1>
 </div>
 <div>
     <h2>Olá<span class="cor_meio">,</span> seja muito bem<span class="cor_meio">-</span>vindo<span class="cor_meio">!</span></h2>
-    <span><h3>Link para o meu <a href="https://github.com/R3TZgl">GitHub</a>.</h3>
-    <img src="../imgs/foguete.png" id="foguete"/></span>
+    <h3>Link para o meu <a href="" target="_blank" id="link">GitHub</a>.</h3>
+    <div class="img-text">
+        <img src="" id="foto"/>
+        <div>
+            <p>Me chamo <span id="nome"></span></p>
+            <p>Sou estudante da área de tecnologia</p>
+        </div>
+    </div>
+    
+    <script type="text/javascript">
+        
+        const headers = new Headers();
+        headers.append("Authorization", "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");
+
+        const renderiza_foto = (foto) =>{
+            const img_foto = document.getElementById("foto");
+            img_foto.src=`${foto}`;
+        }
+
+        const renderiza_nome = (nome) => {
+            const nick = document.getElementById("nome");
+            nick.innerText = `${nome}`;    
+        }
+
+        const renderiza_link = (html_url) => {
+            const link = document.getElementById("link");
+            link.href=`${html_url}`;
+        }    
+
+        fetch('https://api.github.com/users/R3TZgl', {headers: headers})
+        .then((response => response.json()))
+        .then(data => {
+            console.log(data);
+            renderiza_link(data.html_url);
+            renderiza_foto(data.avatar_url);
+            renderiza_nome(data.name);
+        })
+        
+    </script>
+
 </div>

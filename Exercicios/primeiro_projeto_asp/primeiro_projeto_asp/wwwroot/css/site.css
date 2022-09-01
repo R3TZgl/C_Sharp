@@ -34,10 +34,61 @@ a {
     color: #C78EFF;
 }
 
-    a:hover {
-        color: greenyellow;
-    }
+a:hover {
+    color: rgb(151, 252, 0);
+    transition: 0.5s;
+}
+a:not(:hover) {
+    transition: 0.7s;
+}
 
 #foguete {
-    width: 5em;
+    width: 2em;
+    position: relative;
+    animation: movimento 10s infinite;
+}
+
+.img-text {
+    display: inline;
+}
+
+#foto {
+    border-radius: 50em;
+    width: 15em;
+    margin: 1em;
+    border: 0.2em solid;
+    padding: 0.3em;
+    padding-right: 0.3em;
+    padding-left: 0.1em;
+    animation: cor 5s;
+}
+#foto:hover {
+    border-color: rgb(151, 252, 0);
+    transition: 0.5s;
+}   
+#foto:not(:hover) { 
+    transition: 0.7s;
+}
+
+.img-text {
+    display: flex;
+    margin: 2em;
+}
+
+p {
+    margin: 0.7em;
+}
+
+@keyframes movimento {
+    0% {transform: rotate(0deg)}
+    25% {transform: rotate(45deg)}  
+    50% {transform: rotate(0deg)}
+    75% {transform: rotate(-45deg)}
+    100% {transform: rotate(0deg)}
+}
+
+@keyframes cor {
+    0% {border-color: black}
+    50% {border-color: #C78EFF}
+    100% {border-color: black}
 }
