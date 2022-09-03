@@ -89,7 +89,9 @@ p {
     border: 0.2em solid;
     border-radius: 3em;
     padding: 0.1em;
-    margin-right: 0;
+    margin: 2em;
+    width: 100em;
+    box-shadow: 5px 5px 1em #36105c70;
 }
 
 @keyframes movimento {
@@ -102,6 +104,6 @@ p {
 
 @keyframes cor {
     0% {border-color: rgb(151, 252, 0)}
-    50% {border-color: #C78EFF}
+    50% {border-color: #dcbaff}
     100% {border-color: black}
 }
