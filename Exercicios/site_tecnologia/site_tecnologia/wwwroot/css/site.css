@@ -34,7 +34,7 @@ h1 {
 h3 {
     color: rgb(255, 0, 85);
     padding-left: 0.5em;
-    text-decoration:overline ;
+    text-decoration: overline ;
     margin-bottom: 1em;
 }
 
@@ -49,7 +49,7 @@ p {
 }
 
 .python {
-    background-color: gray;
+    background-color: rgb(116, 50, 72);
     padding: 0.5em;
     color: yellow;
     border-radius: 1em;
@@ -57,7 +57,7 @@ p {
 }
 
 .javascript {
-    background-color: gray;
+    background-color: rgb(116, 50, 72);
     padding: 0.5em;
     color: deepskyblue;
     border-radius: 1em;
@@ -65,7 +65,7 @@ p {
 }
 
 .csharp {
-    background-color: gray;
+    background-color: rgb(116, 50, 72);
     padding: 0.5em;
     color: springgreen;
     border-radius: 1em;

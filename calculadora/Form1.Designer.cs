@@ -52,10 +52,9 @@
             this.btnDiv = new System.Windows.Forms.Button();
             this.btnElevado = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.txtUm = new System.Windows.Forms.TextBox();
-            this.txtDois = new System.Windows.Forms.TextBox();
             this.labelDate = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.lbl_past = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnIgual
@@ -344,40 +343,14 @@
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.Color.Azure;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 50F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(101, 60);
+            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 60F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox1.Location = new System.Drawing.Point(101, 100);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(234, 96);
+            this.textBox1.Size = new System.Drawing.Size(234, 114);
             this.textBox1.TabIndex = 24;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // txtUm
-            // 
-            this.txtUm.BackColor = System.Drawing.Color.Azure;
-            this.txtUm.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtUm.Location = new System.Drawing.Point(101, 162);
-            this.txtUm.Name = "txtUm";
-            this.txtUm.Size = new System.Drawing.Size(114, 52);
-            this.txtUm.TabIndex = 25;
-            this.txtUm.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.txtUm.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtUm_MouseClick);
-            this.txtUm.TextChanged += new System.EventHandler(this.txtUm_TextChanged);
-            this.txtUm.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtUm_KeyPress);
-            // 
-            // txtDois
-            // 
-            this.txtDois.BackColor = System.Drawing.Color.Azure;
-            this.txtDois.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtDois.Location = new System.Drawing.Point(221, 162);
-            this.txtDois.Name = "txtDois";
-            this.txtDois.Size = new System.Drawing.Size(114, 52);
-            this.txtDois.TabIndex = 26;
-            this.txtDois.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.txtDois.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtDois_MouseClick);
-            this.txtDois.TextChanged += new System.EventHandler(this.txtDois_TextChanged);
-            this.txtDois.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDois_KeyPress);
             // 
             // labelDate
             // 
@@ -397,16 +370,24 @@
             this.label1.TabIndex = 28;
             this.label1.Text = "Mini Calculadora";
             // 
+            // lbl_past
+            // 
+            this.lbl_past.AutoSize = true;
+            this.lbl_past.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_past.Location = new System.Drawing.Point(101, 100);
+            this.lbl_past.Name = "lbl_past";
+            this.lbl_past.Size = new System.Drawing.Size(0, 15);
+            this.lbl_past.TabIndex = 29;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Honeydew;
             this.ClientSize = new System.Drawing.Size(440, 627);
+            this.Controls.Add(this.lbl_past);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.labelDate);
-            this.Controls.Add(this.txtDois);
-            this.Controls.Add(this.txtUm);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnElevado);
             this.Controls.Add(this.btnDiv);
@@ -465,9 +446,8 @@
         private Button btnDiv;
         private Button btnElevado;
         private TextBox textBox1;
-        private TextBox txtUm;
-        private TextBox txtDois;
         private Label labelDate;
         private Label label1;
+        private Label lbl_past;
     }
 }
