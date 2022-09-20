@@ -25,22 +25,30 @@
             }
             txtUm.BackColor = Color.Azure;
         }
-        void acao(string botao)
+        void acao(string botao, string pos = "normal")
         {
-            if(txtUm.Text == "")
+            funcao = botao;
+
+            if (pos == "sec")
             {
-                funcao = botao;
-                lblPast.Text = past + " " + botao + " ";                
+                
             }
             else
             {
-                funcao = botao;
-                num_inicial = Convert.ToDecimal(txtUm.Text);
-                lblPast.Text = txtUm.Text + " " + botao + " ";
-                past = txtUm.Text;
-                txtUm.Text = "";
-                virgula = false;
+                if (txtUm.Text == "")
+                {
+                    lblPast.Text = past + " " + botao + " ";
+                }
+                else
+                {
+                    num_inicial = Convert.ToDecimal(txtUm.Text);
+                    lblPast.Text = txtUm.Text + " " + botao + " ";
+                    past = txtUm.Text;
+                    txtUm.Text = "";
+                    virgula = false;
+                }
             }
+            
             txtUm.BackColor = Color.Azure;
         }
 
@@ -161,21 +169,25 @@
 
         private void btnIgual_Click(object sender, EventArgs e)
         {
-            if(txtUm.Text == "")
+            if(funcao == "²")
             {
-                if(funcao == "²")
-                {
-
-                }else if(funcao == "√")
-                {
-
-                }
-                else
-                {
-                    txtUm.BackColor = Color.LightCoral;
-                }
+                lblPast.Text = txtUm.Text;
+                txtUm.Text = Convert.ToString(num_final * num_final);
+            }else if(funcao == "√")
+            {
+                lblPast.Text = txtUm.Text;
+                txtUm.Text = Convert.ToString(Math.Sqrt(Convert.ToDouble(num_inicial)));
+            }else if(funcao == "1 ÷ ")
+            {
+                lblPast.Text = txtUm.Text;
+                txtUm.Text = Convert.ToString(1 / num_inicial);
+            }else
+            {
+                txtUm.BackColor = Color.LightCoral;
             }
-            else
+
+
+            if(txtUm.Text != "")
             {
                 num_final = Convert.ToDecimal(txtUm.Text);
                 lblPast.Text += txtUm.Text;
@@ -201,17 +213,17 @@
 
         private void btnElevado_Click(object sender, EventArgs e)
         {
-            acao("²");
+            acao("²", "sec");
         }
 
         private void btnRaiz_Click(object sender, EventArgs e)
         {
-            acao("√");
+            acao("√", "sec");
         }
 
         private void btnDiv_Click(object sender, EventArgs e)
         {
-            acao("1 / ");
+            acao("1 ÷ ", "sec");
         }
     }
 }
