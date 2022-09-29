@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+9XMqdUPY1n/DTFNNsvw7km+f+ulqbdr0XYk/DVaVrs=",
+  "Hash": "AwVORD7lqcyoWNcMFulDr/0SmJvwAVtQSXBvVfhvg0I=",
   "Source": "site_tecnologia",
   "BasePath": "_content/site_tecnologia",
   "Mode": "Default",
@@ -168,6 +168,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\img4.ico"
+    },
+    {
+      "Identity": "C:\\Users\\HyperV\\Documents\\C_Sharp\\Exercicios\\site_tecnologia\\site_tecnologia\\wwwroot\\img\\vs.png",
+      "SourceId": "site_tecnologia",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HyperV\\Documents\\C_Sharp\\Exercicios\\site_tecnologia\\site_tecnologia\\wwwroot\\",
+      "BasePath": "_content/site_tecnologia",
+      "RelativePath": "img/vs.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\vs.png"
     },
     {
       "Identity": "C:\\Users\\HyperV\\Documents\\C_Sharp\\Exercicios\\site_tecnologia\\site_tecnologia\\wwwroot\\js\\site.js",
