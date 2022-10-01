@@ -93,8 +93,16 @@ body:focus {}
 
 /*Imagens dos jogos*/
 
-#zelda, #god, #forza {
-    width: 65em;
+#zelda, #engine, #forza, #placa {
+    width: 55em;
+    margin: 1em;
+    padding: 1em;
+    border: dashed;
+    border-color: purple;
+    border-radius: 1em;
+}
+#arduino {
+    width: 80em;
     margin: 1em;
     padding: 1em;
     border: dashed;
