@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uf+D5vMr3LZHfFw2P5+7ebCibr2bafPdVwrDa66nH+I=",
+  "Hash": "6PQe9HK8BC4SSL7PJbH9Lt8p5fQIiwxsRms/k8oxUNc=",
   "Source": "site_tecnologia",
   "BasePath": "_content/site_tecnologia",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\HyperV\\Documents\\C_Sharp\\Exercicios\\site_tecnologia\\site_tecnologia\\wwwroot\\img\\agenda.jpg",
+      "SourceId": "site_tecnologia",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HyperV\\Documents\\C_Sharp\\Exercicios\\site_tecnologia\\site_tecnologia\\wwwroot\\",
+      "BasePath": "_content/site_tecnologia",
+      "RelativePath": "img/agenda.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\agenda.jpg"
     },
     {
       "Identity": "C:\\Users\\HyperV\\Documents\\C_Sharp\\Exercicios\\site_tecnologia\\site_tecnologia\\wwwroot\\img\\arduino.jpg",
@@ -253,6 +270,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\img4.ico"
+    },
+    {
+      "Identity": "C:\\Users\\HyperV\\Documents\\C_Sharp\\Exercicios\\site_tecnologia\\site_tecnologia\\wwwroot\\img\\kanban.jpg",
+      "SourceId": "site_tecnologia",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HyperV\\Documents\\C_Sharp\\Exercicios\\site_tecnologia\\site_tecnologia\\wwwroot\\",
+      "BasePath": "_content/site_tecnologia",
+      "RelativePath": "img/kanban.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\kanban.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HyperV\\Documents\\C_Sharp\\Exercicios\\site_tecnologia\\site_tecnologia\\wwwroot\\img\\photoshop.png",
+      "SourceId": "site_tecnologia",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HyperV\\Documents\\C_Sharp\\Exercicios\\site_tecnologia\\site_tecnologia\\wwwroot\\",
+      "BasePath": "_content/site_tecnologia",
+      "RelativePath": "img/photoshop.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\photoshop.png"
     },
     {
       "Identity": "C:\\Users\\HyperV\\Documents\\C_Sharp\\Exercicios\\site_tecnologia\\site_tecnologia\\wwwroot\\img\\placa 1.jpg",

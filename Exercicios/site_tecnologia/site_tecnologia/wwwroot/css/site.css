@@ -52,27 +52,36 @@ p {
 }
 
 .python {
-    background-color: rgb(116, 50, 72);
+    background-color: #49366b;
     padding: 0.5em;
     color: yellow;
     border-radius: 1em;
     margin: 2em;
+    transition: 1s;
 }
 
 .javascript {
-    background-color: rgb(116, 50, 72);
+    background-color: #49366b;
     padding: 0.5em;
     color: deepskyblue;
     border-radius: 1em;
     margin: 2em;
+    transition: 1s;
 }
 
 .csharp {
-    background-color: rgb(116, 50, 72);
+    background-color: #49366b;
     padding: 0.5em;
     color: springgreen;
     border-radius: 1em;
     margin: 2em;
+    transition: 1s;
+}
+
+.csharp:hover, .javascript:hover, .python:hover {
+    background-color: #886bbe;
+    box-shadow: 1px 1px 15px #886bbe;
+    transition: 1s;
 }
 
 .linguagens {
@@ -93,13 +102,14 @@ body:focus {}
 
 /*Imagens dos jogos*/
 
-#zelda, #engine, #forza, #placa {
+#zelda, #engine, #forza, #placa, #agenda, #kanban {
     width: 55em;
     margin: 1em;
     padding: 1em;
     border: dashed;
     border-color: purple;
     border-radius: 1em;
+    transition: 1s;
 }
 #arduino {
     width: 80em;
@@ -108,4 +118,20 @@ body:focus {}
     border: dashed;
     border-color: purple;
     border-radius: 1em;
+    transition: 1s;
+}
+
+#zelda:hover, #engine:hover, #forza:hover, #placa:hover, #agenda:hover, #kanban:hover, #arduino:hover {
+    border-color: #886bbe;
+    box-shadow: 1px 1px 20px #886bbe;
+}
+
+a {
+    color: greenyellow;
+    text-shadow: 1px 1px 25px greenyellow;
+    transition: 0.3s;
+}
+a:hover {
+    color: #8957E5;
+    text-shadow: 1px 1px 25px #8957E5;
 }
