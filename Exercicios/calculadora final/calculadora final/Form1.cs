@@ -31,12 +31,39 @@
 
             if (pos == "sec")
             {
-                
+                if (botao == "²")
+                {
+
+                    if (txtUm.Text == "")
+                    {
+                        if (past == null)
+                        {
+                            return;
+                        }
+                        lblPast.Text = past + botao + " ";
+                    }
+                    else
+                    {
+                        num_final = Convert.ToDecimal(txtUm.Text);
+                        lblPast.Text = txtUm.Text + botao + " ";
+                        past = txtUm.Text;
+                        txtUm.Text = "";
+                        virgula = false;
+                    }
+                }
+                else
+                {
+                    txtUm.Text = botao;
+                }
             }
             else
             {
                 if (txtUm.Text == "")
                 {
+                    if (past == null)
+                    {
+                        return;
+                    }
                     lblPast.Text = past + " " + botao + " ";
                 }
                 else
@@ -163,6 +190,7 @@
         {
             txtUm.Text = "";
             lblPast.Text = "";
+            past = null;
             num_final = 0;
             num_inicial = 0;
         }
@@ -176,12 +204,12 @@
             }else if(funcao == "√")
             {
                 lblPast.Text = txtUm.Text;
-                txtUm.Text = Convert.ToString(Math.Sqrt(Convert.ToDouble(num_inicial)));
+                txtUm.Text = Convert.ToString(Math.Sqrt(Convert.ToDouble(num_final)));
             }else if(funcao == "1 ÷ ")
             {
                 lblPast.Text = txtUm.Text;
-                txtUm.Text = Convert.ToString(1 / num_inicial);
-            }else
+                txtUm.Text = Convert.ToString(1 / num_final);
+            }else if(txtUm.Text == "")
             {
                 txtUm.BackColor = Color.LightCoral;
             }
